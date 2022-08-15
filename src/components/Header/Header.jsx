@@ -6,11 +6,9 @@ const handleClick = () => {
 function Header() {
   return (
     <div className="Header">
-      <div>
-        <button onClick={handleClick} className="Button">
-          CLICK ME
-        </button>
-      </div>
+      <button onClick={handleClick} className="Button">
+        CLICK ME
+      </button>
     </div>
   )
 }
