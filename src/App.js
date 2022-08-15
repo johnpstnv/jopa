@@ -1,23 +1,11 @@
-import logo from './logo.svg'
 import './App.css'
+import './components/Header/Header.jsx'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          JOPA
-        </a>
-      </header>
+      <Header />
     </div>
   )
 }
